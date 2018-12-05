@@ -1,6 +1,9 @@
 #https://roche.io/2016/05/scrape-wikipedia-with-python
 #full version of the codes: https://github.com/rocheio/wiki-table-scrape/blob/master/wikitablescrape.py
 
+import csv
+import os
+import platform
 
 import requests
 from bs4 import BeautifulSoup
